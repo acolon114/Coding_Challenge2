@@ -6,3 +6,7 @@ let tip;
 
 tip = bill * tip; // Output: This line will determine the cost of the tip
 
+// Task 2: Output Details 
+
+console.log("The bill was $" + bill + ", the tip was $" + tip + ", and the total value is $" + (bill + tip)); //Output: The bill was $100, the tip was $15, and the total value is $115 
+
