@@ -19,3 +19,13 @@ function calculateTip(billAmount) {
 } // Output: Calculates the tip based upon the $100 determined at the beginning of the program
 
 console.log(calculateTip(100)); // Output: 15
+
+// Task 4: Utilize Arrays
+
+let bills = [275, 40, 430]; // Data Set 1
+let tips = bills.map(bill => calculateTip(bill));
+console.log(tips); // Output: [41.25, 8, 86]
+
+bills = [125, 555, 44]; // Data Set 2
+tips = bills.map(bill => calculateTip(bill));
+console.log(tips); // Output: [18.75, 111, 8.8]
